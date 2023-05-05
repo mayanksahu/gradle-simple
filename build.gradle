@@ -1,5 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'maven-publish'
+apply plugin: 'org.sonarqube'
 
 group = 'com.github.jitpack'
 version = '2.0'
@@ -32,3 +33,24 @@ wrapper {
     gradleVersion = "7.3.3"
     distributionType = Wrapper.DistributionType.ALL
 }
+
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:4.0.0.2929"
+    }
+}
+
+sonar {
+   properties {
+      property "sonar.host.url", "http://localhost:9000"
+      property "sonar.sources", "src"
+   }
+}
+
+tasks['sonar'].dependsOn test
