@@ -2,6 +2,10 @@ apply plugin: 'java'
 apply plugin: 'maven-publish'
 apply plugin: 'org.sonarqube'
 
+plugins {
+  id "org.sonarqube" version "4.0.0.2929"
+}
+
 group = 'com.github.jitpack'
 version = '2.0'
 
@@ -51,10 +55,6 @@ sonar {
       property "sonar.host.url", "http://localhost:9000"
       property "sonar.sources", "src"
    }
-}
-
-plugins {
-  id "org.sonarqube" version "4.0.0.2929"
 }
 
 tasks['sonar'].dependsOn test
