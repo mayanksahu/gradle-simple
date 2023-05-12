@@ -53,4 +53,8 @@ sonar {
    }
 }
 
+plugins {
+  id "org.sonarqube" version "4.0.0.2929"
+}
+
 tasks['sonar'].dependsOn test
