@@ -18,3 +18,4 @@ To install the library add:
    }
    ```  
 
+Test changes to trigger commit for sonar.
