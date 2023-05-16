@@ -1,3 +1,26 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:4.0.0.2929"
+    }
+}
+
+plugins {
+  id "org.sonarqube" version "4.0.0.2929"
+}
+
+sonar {
+  properties {
+    property "sonar.projectKey", "mayanksahu_gradle-simple_AYgPhmoYIrWyh8D50rI8"
+    property "sonar.projectName", "gradle-simple"
+  }
+}
+
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 apply plugin: 'org.sonarqube'
@@ -32,22 +55,6 @@ publishing {
 wrapper {
     gradleVersion = "7.3.3"
     distributionType = Wrapper.DistributionType.ALL
-}
-
-buildscript {
-    repositories {
-        mavenCentral()
-        maven {
-            url "https://plugins.gradle.org/m2/"
-        }
-    }
-    dependencies {
-        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:4.0.0.2929"
-    }
-}
-
-plugins {
-  id "org.sonarqube" version "4.0.0.2929"
 }
 
 sonar {
