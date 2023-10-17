@@ -1,0 +1,29 @@
+2023-10-17 14:42:13 info: tempDirectory:/Users/mayanksahu/.vscode/extensions/embold-vscode.embold-0.1.6/temp
+2023-10-17 14:42:13 info: Congratulations, your extension "Embold" is now active!
+2023-10-17 14:42:13 info: Current Version Of Embold
+2023-10-17 14:42:13 info: 0.1.6
+2023-10-17 14:42:13 info: Extraction complete for source: /Users/mayanksahu/.vscode/extensions/embold-vscode.embold-0.1.6/resources/embold-scanner-archive.zip, destination: /Users/mayanksahu/.vscode/extensions/embold-vscode.embold-0.1.6/temp
+2023-10-17 14:42:15 info: Embold extension version response:
+2023-10-17 14:42:15 info: {"hasSupport":false}
+2023-10-17 14:42:15 info: current version : 
+2023-10-17 14:42:15 info: latest version : 
+2023-10-17 14:42:38 error: SQLITE_ERROR: no such table: issues
+2023-10-17 14:42:41 error: SQLITE_ERROR: no such table: issues
+2023-10-17 14:42:41 error: SQLITE_ERROR: no such table: issues
+2023-10-17 14:42:41 error: SQLITE_ERROR: no such table: issues
+2023-10-17 14:43:30 info: tempDirectory:/Users/mayanksahu/.vscode/extensions/embold-vscode.embold-0.1.6/temp
+2023-10-17 14:43:30 info: Congratulations, your extension "Embold" is now active!
+2023-10-17 14:43:30 info: Current Version Of Embold
+2023-10-17 14:43:30 info: 0.1.6
+2023-10-17 14:43:30 info: Extraction complete for source: /Users/mayanksahu/.vscode/extensions/embold-vscode.embold-0.1.6/resources/embold-scanner-archive.zip, destination: /Users/mayanksahu/.vscode/extensions/embold-vscode.embold-0.1.6/temp
+2023-10-17 14:43:33 info: Embold extension version response:
+2023-10-17 14:43:33 info: {"hasSupport":false}
+2023-10-17 14:43:33 info: current version : 
+2023-10-17 14:43:33 info: latest version : 
+2023-10-17 14:44:29 error: SQLITE_ERROR: no such table: issues
+2023-10-17 14:44:29 error: SQLITE_ERROR: no such table: issues
+2023-10-17 14:44:29 error: SQLITE_ERROR: no such table: issues
+2023-10-17 14:45:29 error: SQLITE_ERROR: no such table: issues
+2023-10-17 14:45:46 error: SQLITE_ERROR: no such table: issues
+2023-10-17 14:45:46 error: SQLITE_ERROR: no such table: issues
+2023-10-17 14:47:48 error: SQLITE_ERROR: no such table: issues

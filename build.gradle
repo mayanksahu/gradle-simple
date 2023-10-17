@@ -11,13 +11,13 @@ buildscript {
 }
 
 plugins {
-  id "org.sonarqube" version "4.0.0.2929"
+  id "org.sonarqube" version "4.2.1.3168"
 }
 
 sonar {
   properties {
-    property "sonar.projectKey", "mayanksahu_gradle-simple_AYgPhmoYIrWyh8D50rI8"
-    property "sonar.projectName", "gradle-simple"
+    property "sonar.projectKey", "mayanksahu_gradle-simple_AYsTGGYY0zJGQAQHd4SC"
+    property "sonar.projectName", "Gradle-simple"
   }
 }
 
