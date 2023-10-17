@@ -59,7 +59,7 @@ wrapper {
 
 sonar {
    properties {
-      property "sonar.host.url", "http://192.168.1.17:9000"
+      property "sonar.host.url", "https://bb67-2401-4900-1cc5-694-f09e-57f3-1fe4-35.ngrok-free.app/"
       property "sonar.sources", "src"
    }
 }
